@@ -1,0 +1,226 @@
+INSERT INTO b_students VALUES (000001,'Михаил',	'Александрович',	'Дитятьев',	'03/09/79','m','Днепр','RI-97-1',12);
+INSERT INTO b_students VALUES (000002,'Олег',	'Владимирович',	'Гусев',	'02/11/80','m','Запорожье','RI-97-2',12);
+INSERT INTO b_students VALUES (000003,'Александр',	'Андреевич','Бойко',	'07/11/80','m','Днепр','RI-97-3',12);
+INSERT INTO b_students VALUES (000004,'Андрей',	'Александрович',	'Селезнев',	'12/12/77','m','Днепр','RI-97-2',12);
+INSERT INTO b_students VALUES (000005,'Павел','Сергеевич',	'Гладкий',	'19/06/80','m','Запорожье',	 'RI-97-3',12);
+INSERT INTO b_students VALUES (000006,'Денис',	'Николаевич',	'Рыбка',	'19/02/80','m','Днепр',	 'RI-97-2',12);
+INSERT INTO b_students VALUES (000007,'Виталий','Александрович',	'Пятов',	'23/03/79','m','Днепр',	 'RI-97-3',12);
+INSERT INTO b_students VALUES (000008,'Сергей',	'Игоревич',	'Назаренко',	'27/04/80','m','Кривой Рог',	 'RI-97-2',12);
+INSERT INTO b_students VALUES (000009,'Дмитрий',	'Николаевич','Русол',	'28/03/80','m','Полтава',	 'RI-97-1',12);
+INSERT INTO b_students VALUES (000010,'Николай',	'Васильевич','Пашаев',	'30/06/80','m','Кривой Рог',	 'RI-97-1',12);
+INSERT INTO b_students VALUES (000011,'Константин',	'Константинович',	'Ребров',	'31/07/80','m','Кривой Рог',	 'RI-97-2',12);
+INSERT INTO b_students VALUES (000012,'Игорь',	'Дмитриевич',	'Воронин',	'30/11/80','m','Днепр','RI-97-2',12);
+INSERT INTO b_students VALUES (000021,'Иван',	'Дмитриевич',	'Лучкевич',	'07/08/81','m','Днепр','RI-97-2',12);
+
+INSERT INTO b_students VALUES (000013,'Валерия',	'Евгениевна',	'Шевчук',	'3/08/79', 'f','Кривой Рог',	 'RI-97-1',12);
+INSERT INTO b_students VALUES (000014,'Анастасия',	'Александровна',	'Морозюк',	'13/12/80','f','Днепр','RI-97-1',12);
+INSERT INTO b_students VALUES (000015,'Екатерина',	'Игоревна',	'Петряк',	'23/01/80','f','Днепр','RI-97-2',12);
+INSERT INTO b_students VALUES (000016,'Татьяна',	'Александровна','Сваток',	'30/09/79','f','Запорожье',	 'RI-97-2',12);
+INSERT INTO b_students VALUES (000017,'Дарья',	'Александровна',	'Коваленко',	'6/05/80', 'f','Днепр','RI-97-3',12);
+INSERT INTO b_students VALUES (000018,'Наталья',	'Владимировна',	'Малышева',	'26/03/79','f','Николаев','RI-97-3',12);
+INSERT INTO b_students VALUES (000019,'Светлана',	'Олеговна',	'Симинина',	'31/07/80','f','Днепр','RI-97-3',12);
+INSERT INTO b_students VALUES (000020,'Алина',	'Ярославовна',	'Лупашко', '26/02/80','f','Полтава','RI-97-1',12);
+
+INSERT INTO b_chairs VALUES (01,'ЕОМ',	1,	'46-67-89');
+INSERT INTO b_chairs VALUES (02,'Физики',		3,	'46-67-12');
+INSERT INTO b_chairs VALUES (03,'Математики',		4,	'46-34-01');
+INSERT INTO b_chairs VALUES (04,'Радиоэлектроники',NULL,'48-74-75');
+
+
+INSERT INTO b_marks VALUES (000001,1,5);
+INSERT INTO b_marks VALUES (000001,2,5);
+INSERT INTO b_marks VALUES (000001,3,5);
+INSERT INTO b_marks VALUES (000001,4,4);
+INSERT INTO b_marks VALUES (000001,5,5);
+INSERT INTO b_marks VALUES (000001,6,5);
+INSERT INTO b_marks VALUES (000001,7,5);
+INSERT INTO b_marks VALUES (000001,8,5);
+
+INSERT INTO b_marks VALUES (000002,1,4);
+INSERT INTO b_marks VALUES (000002,2,4);
+INSERT INTO b_marks VALUES (000002,3,5);
+INSERT INTO b_marks VALUES (000002,4,4);
+INSERT INTO b_marks VALUES (000002,5,5);
+INSERT INTO b_marks VALUES (000002,6,5);
+INSERT INTO b_marks VALUES (000002,7,5);
+INSERT INTO b_marks VALUES (000002,8,4);
+
+INSERT INTO b_marks VALUES (000003,1,3);
+INSERT INTO b_marks VALUES (000003,2,3);
+INSERT INTO b_marks VALUES (000003,3,4);
+INSERT INTO b_marks VALUES (000003,4,4);
+INSERT INTO b_marks VALUES (000003,5,3);
+INSERT INTO b_marks VALUES (000003,6,3);
+INSERT INTO b_marks VALUES (000003,7,3);
+INSERT INTO b_marks VALUES (000003,8,3);
+
+INSERT INTO b_marks VALUES (000004,1,4);
+INSERT INTO b_marks VALUES (000004,2,4);
+INSERT INTO b_marks VALUES (000004,3,4);
+INSERT INTO b_marks VALUES (000004,4,5);
+INSERT INTO b_marks VALUES (000004,5,5);
+INSERT INTO b_marks VALUES (000004,6,5);
+INSERT INTO b_marks VALUES (000004,7,5);
+INSERT INTO b_marks VALUES (000004,8,4);
+
+INSERT INTO b_marks VALUES (000005,1,4);
+INSERT INTO b_marks VALUES (000005,2,4);
+INSERT INTO b_marks VALUES (000005,3,4);
+INSERT INTO b_marks VALUES (000005,4,4);
+INSERT INTO b_marks VALUES (000005,5,4);
+INSERT INTO b_marks VALUES (000005,6,4);
+INSERT INTO b_marks VALUES (000005,7,3);
+INSERT INTO b_marks VALUES (000005,8,3);
+
+INSERT INTO b_marks VALUES (000006,1,3);
+INSERT INTO b_marks VALUES (000006,2,4);
+INSERT INTO b_marks VALUES (000006,3,3);
+INSERT INTO b_marks VALUES (000006,4,3);
+INSERT INTO b_marks VALUES (000006,5,3);
+INSERT INTO b_marks VALUES (000006,6,0);
+INSERT INTO b_marks VALUES (000006,7,3);
+INSERT INTO b_marks VALUES (000006,8,4);
+                               
+INSERT INTO b_marks VALUES (000007,1,3);
+INSERT INTO b_marks VALUES (000007,2,4);
+INSERT INTO b_marks VALUES (000007,3,5);
+INSERT INTO b_marks VALUES (000007,4,5);
+INSERT INTO b_marks VALUES (000007,5,5);
+INSERT INTO b_marks VALUES (000007,6,5);
+INSERT INTO b_marks VALUES (000007,7,4);
+INSERT INTO b_marks VALUES (000007,8,5);
+
+INSERT INTO b_marks VALUES (000008,1,3);
+INSERT INTO b_marks VALUES (000008,2,5);
+INSERT INTO b_marks VALUES (000008,3,3);
+INSERT INTO b_marks VALUES (000008,4,4);
+INSERT INTO b_marks VALUES (000008,5,4);
+INSERT INTO b_marks VALUES (000008,6,4);
+INSERT INTO b_marks VALUES (000008,7,4);
+INSERT INTO b_marks VALUES (000008,8,4);
+
+INSERT INTO b_marks VALUES (000009,1,4);
+INSERT INTO b_marks VALUES (000009,2,0);
+INSERT INTO b_marks VALUES (000009,3,0);
+INSERT INTO b_marks VALUES (000009,4,3);
+INSERT INTO b_marks VALUES (000009,5,0);
+INSERT INTO b_marks VALUES (000009,6,4);
+INSERT INTO b_marks VALUES (000009,7,4);
+INSERT INTO b_marks VALUES (000009,8,4);
+
+INSERT INTO b_marks VALUES (000010,1,5);
+INSERT INTO b_marks VALUES (000010,2,5);
+INSERT INTO b_marks VALUES (000010,3,5);
+INSERT INTO b_marks VALUES (000010,4,5);
+INSERT INTO b_marks VALUES (000010,5,4);
+INSERT INTO b_marks VALUES (000010,6,5);
+INSERT INTO b_marks VALUES (000010,7,5);
+INSERT INTO b_marks VALUES (000010,8,5);
+
+INSERT INTO b_marks VALUES (000011,1,5);
+INSERT INTO b_marks VALUES (000011,2,5);
+INSERT INTO b_marks VALUES (000011,3,5);
+INSERT INTO b_marks VALUES (000011,4,4);
+INSERT INTO b_marks VALUES (000011,5,4);
+INSERT INTO b_marks VALUES (000011,6,5);
+INSERT INTO b_marks VALUES (000011,7,0);
+INSERT INTO b_marks VALUES (000011,8,5);
+
+INSERT INTO b_marks VALUES (000012,1,4);
+INSERT INTO b_marks VALUES (000012,2,4);
+INSERT INTO b_marks VALUES (000012,3,4);
+INSERT INTO b_marks VALUES (000012,4,0);
+INSERT INTO b_marks VALUES (000012,5,4);
+INSERT INTO b_marks VALUES (000012,6,5);
+INSERT INTO b_marks VALUES (000012,7,0);
+INSERT INTO b_marks VALUES (000012,8,0);
+
+INSERT INTO b_marks VALUES (000013,1,0);
+INSERT INTO b_marks VALUES (000013,2,0);
+INSERT INTO b_marks VALUES (000013,3,0);
+INSERT INTO b_marks VALUES (000013,4,0);
+INSERT INTO b_marks VALUES (000013,5,0);
+INSERT INTO b_marks VALUES (000013,6,0);
+INSERT INTO b_marks VALUES (000013,7,0);
+INSERT INTO b_marks VALUES (000013,8,0);
+
+INSERT INTO b_marks VALUES (000014,1,3);
+INSERT INTO b_marks VALUES (000014,2,4);
+INSERT INTO b_marks VALUES (000014,3,4);
+INSERT INTO b_marks VALUES (000014,4,4);
+INSERT INTO b_marks VALUES (000014,5,0);
+INSERT INTO b_marks VALUES (000014,6,5);
+INSERT INTO b_marks VALUES (000014,7,3);
+INSERT INTO b_marks VALUES (000014,8,4);
+
+INSERT INTO b_marks VALUES (000015,1,5);
+INSERT INTO b_marks VALUES (000015,2,5);
+INSERT INTO b_marks VALUES (000015,3,5);
+INSERT INTO b_marks VALUES (000015,4,5);
+INSERT INTO b_marks VALUES (000015,5,5);
+INSERT INTO b_marks VALUES (000015,6,5);
+INSERT INTO b_marks VALUES (000015,7,4);
+INSERT INTO b_marks VALUES (000015,8,0);
+
+INSERT INTO b_marks VALUES (000016,1,4);
+INSERT INTO b_marks VALUES (000016,2,3);
+INSERT INTO b_marks VALUES (000016,3,4);
+INSERT INTO b_marks VALUES (000016,4,4);
+INSERT INTO b_marks VALUES (000016,5,4);
+INSERT INTO b_marks VALUES (000016,6,5);
+INSERT INTO b_marks VALUES (000016,7,4);
+INSERT INTO b_marks VALUES (000016,8,3);
+
+INSERT INTO b_marks VALUES (000017,1,3);
+INSERT INTO b_marks VALUES (000017,2,4);
+INSERT INTO b_marks VALUES (000017,3,5);
+INSERT INTO b_marks VALUES (000017,4,4);
+INSERT INTO b_marks VALUES (000017,5,5);
+INSERT INTO b_marks VALUES (000017,6,5);
+INSERT INTO b_marks VALUES (000017,7,4);
+INSERT INTO b_marks VALUES (000017,8,0);
+
+INSERT INTO b_marks VALUES (000018,1,4);
+INSERT INTO b_marks VALUES (000018,2,5);
+INSERT INTO b_marks VALUES (000018,3,5);
+INSERT INTO b_marks VALUES (000018,4,5);
+INSERT INTO b_marks VALUES (000018,5,5);
+INSERT INTO b_marks VALUES (000018,6,5);
+INSERT INTO b_marks VALUES (000018,7,5);
+INSERT INTO b_marks VALUES (000018,8,4);
+
+INSERT INTO b_marks VALUES (000019,1,3);
+INSERT INTO b_marks VALUES (000019,2,0);
+INSERT INTO b_marks VALUES (000019,3,5);
+INSERT INTO b_marks VALUES (000019,4,5);
+INSERT INTO b_marks VALUES (000019,5,4);
+INSERT INTO b_marks VALUES (000019,6,5);
+INSERT INTO b_marks VALUES (000019,7,5);
+INSERT INTO b_marks VALUES (000019,8,5);
+
+INSERT INTO b_marks VALUES (000020,1,5);
+INSERT INTO b_marks VALUES (000020,2,5);
+INSERT INTO b_marks VALUES (000020,3,5);
+INSERT INTO b_marks VALUES (000020,4,5);
+INSERT INTO b_marks VALUES (000020,5,5);
+INSERT INTO b_marks VALUES (000020,6,5);
+INSERT INTO b_marks VALUES (000020,7,5);
+INSERT INTO b_marks VALUES (000020,8,5);
+
+INSERT INTO b_subjects VALUES (001,'Высшая математика',	1,72);
+INSERT INTO b_subjects VALUES (002,'Компьютерная графика',			5,36);
+INSERT INTO b_subjects VALUES (003,'История Украины',				3,54);
+INSERT INTO b_subjects VALUES (004,'Теория цепей',		6,54);
+INSERT INTO b_subjects VALUES (005,'Схемотехника',			7,18);
+INSERT INTO b_subjects VALUES (006,'Организация баз данных',			8,18);
+INSERT INTO b_subjects VALUES (007,'Физкультура',			5,18);
+INSERT INTO b_subjects VALUES (008,'Английский',			3,36);
+
+INSERT INTO b_teachers VALUES (0001,'Сергей',	'Дмитриевич',	'Медведев',	'3/09/39', 'm','Днепропетровск','01',NULL,	'Зав. кафедры',		570);
+INSERT INTO b_teachers VALUES (0002,'Максим',	'Николаевич',	'Семёнов',	'11/11/56','f','Днепропетровск','01',5,	'Техник I кат.',	180);
+INSERT INTO b_teachers VALUES (0003,'Пётр',	'Петрович',	'Захаров',	'24/10/61','m','Днепропетровск','02',NULL,	'Зав. кафедры',		650);
+INSERT INTO b_teachers VALUES (0004,'Олег',	'Олегович',	'Никитин',	'3/09/56', 'm','Днепропетровск','03',NULL,	'Зав. кафедры',		530);
+INSERT INTO b_teachers VALUES (0005,'Екатерина',	'Петровна',	'Киселёва',	'23/11/56','f','Днепропетровск','01',1,	'Ст. преподаватель',	320);
+INSERT INTO b_teachers VALUES (0006,'Василий',	'Сергеевич',	'Белозёрский',	'13/09/60','m','Новомосковск',	 '02',3,	'Ст. преподаватель',	290);
+INSERT INTO b_teachers VALUES (0007,'Юлия',	'Васильевна',	'Белозёрская',	'9/09/64', 'f','Днепропетровск','04',NULL,	'Ст. преподаватель',	287);
+INSERT INTO b_teachers VALUES (0008,'Екатерина',	'Николаевна',	'Смирнова',	'9/09/64', 'f','Днепропетровск','04',NULL,	'Преподаватель',	250);

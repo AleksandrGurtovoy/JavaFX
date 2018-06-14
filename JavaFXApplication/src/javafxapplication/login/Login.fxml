@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+
+<BorderPane fx:controller ="javafxapplication.login.Login" xmlns:fx="http://javafx.com/fxml" stylesheets="media/styles/style3.css">
+     <top>
+        <StackPane>   
+            <Label text="Authorization" style="-fx-font: NORMAL 20 Tahoma;"/>
+        </StackPane>  
+     </top>
+     <center>
+        <GridPane alignment="top_center" hgap="8" vgap="8" 
+            style="-fx-padding: 40 0 0 0">
+            <children>
+                <Label text="Sign in:"
+                    style="-fx-font: NORMAL 14 Tahoma;" 
+                    GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+ 
+                <Label text="Username:"
+                    GridPane.columnIndex="0" GridPane.rowIndex="1"
+                    labelFor="$usernameField"/>
+                <TextField fx:id="usernameField" prefColumnCount="15"
+                    GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+                <Label text="Password:"
+                    GridPane.columnIndex="0" GridPane.rowIndex="2"
+                    labelFor="$passwordField"/>
+                <PasswordField fx:id="passwordField" prefColumnCount="15"
+                    GridPane.columnIndex="1" GridPane.rowIndex="2"
+                    onAction="#processLogin"/>
+ 
+                <Button fx:id="submitButton" text="Submit" 
+                    GridPane.columnIndex="1" GridPane.rowIndex="3"
+                    onAction="#processLogin"/>
+ 
+                <Label fx:id="errorText" 
+                    GridPane.columnIndex="1" GridPane.rowIndex="4"
+                    style="-fx-text-fill: #ff0000;"/>
+            </children>
+        </GridPane>
+     </center>
+</BorderPane>	

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx3dcube.ViewController">
+    <children>
+      <VBox layoutX="-1.0" prefHeight="207.0" prefWidth="320.0" styleClass="root" stylesheets="@style1.css">
+         <children>
+              <Button fx:id="button" onAction="#handleButtonAction" prefHeight="62.0" prefWidth="323.0" text="Click Me!" />
+            <HBox fx:id="hBox1" alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox fx:id="hBox2" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <HBox fx:id="hBox3" prefHeight="100.0" prefWidth="200.0" />
+                     </children>
+                  </HBox>
+               </children></HBox>
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>

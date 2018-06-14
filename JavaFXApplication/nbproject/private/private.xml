@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/style/StyleView.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/managers/GenericDAO.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/chart/ChartView.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/models/UserFx.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/crud/BooleanCell.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/JavaFXApplication.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/crud/ChboxWrapper.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/crud/CrudView.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/login/Login.java</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/login/Login.fxml</file>
+            <file>file:/D:/KI-14/3.2/Java/JavaFXApplication/src/javafxapplication/utils/FileFilterFx.java</file>
+        </group>
+    </open-files>
+</project-private>
